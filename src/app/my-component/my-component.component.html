@@ -1,0 +1,11 @@
+<input type="text" [(ngModel)]= "text" #state>
+<button (click) = 'onCall(state.value);' > Search </button>
+{{ text }} <br>
+<ul>
+      <li *ngFor="let apis of api" >
+      	<ol>
+        	<li> -- name: {{apis.name}} </li>
+        	<li> -- website_url: {{apis.website_url}} </li>
+        </ol>
+      </li>
+    </ul> 

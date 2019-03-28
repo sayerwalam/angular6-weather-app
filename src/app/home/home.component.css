@@ -1,0 +1,39 @@
+div{
+	margin-top: 20px;
+}
+
+div:first-of-type{
+   margin-top: 5px;
+}
+
+.city{
+	width: 60%;
+	left: 47%;
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+}
+
+button{
+    margin: -20px 50px; 
+    position:relative;
+    top: -10px;
+}
+
+.mydropdown{
+	margin-left: 25%;
+	width: 43%;
+	display: inline-block;
+	color: white;
+}
+
+h4{
+	text-shadow: 2px 2px #ff0000;
+	padding-left: 85px;
+	margin-top: 13px;
+}
+
+option{
+	text-align: center;
+	font-style: italic;
+}

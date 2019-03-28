@@ -1,0 +1,27 @@
+.card{
+	margin-left: 34%;
+	margin-top: 3%;
+	-moz-box-shadow: 15px 15px 15px #ccc;
+	-webkit-box-shadow: 15px 15px 15px #ccc;
+	box-shadow: 15px 15px 15px #ccc;
+	height: 90px;
+	width: 500px;
+	font-size: 20px;
+	background-color: #FAFCFA;
+
+}
+
+.card-header{
+	margin-left: -10px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.card-title{
+	font-weight: Bold;
+	font-size: 18px;
+	padding-left: 10px;
+
+}
+
+

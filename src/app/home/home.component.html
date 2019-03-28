@@ -1,0 +1,24 @@
+<div class="conatiner">
+    <div class="row">
+      <div class= "mydropdown col-sm-12">
+         <h4 class = "col-sm-6"> Celcius or  Fahrenheit : </h4>
+         <div class="col-sm-6">
+          <select [(ngModel)]="selectedValue" class="form-control">
+            <option value ="Celcius"> Celcius </option>
+            <option value ="Fahrenheit">  Fahrenheit </option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+         <input type="text" placeholder="Enter city name" class="form-control city" #city>
+    </div>
+    <div class="col-md-4">
+         <button (click) = 'onSubmit(city.value);' class="btn btn-success" style="align: center;"> Search </button> 
+    </div>
+  <div class="row">
+     <app-weather-results [cityName] = "cityName" [temperature] = "temperature" [weather] = "weather" *ngIf = "isSearched"></app-weather-results>
+  </div>
+    </div>
+</div>
